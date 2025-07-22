@@ -1,13 +1,13 @@
-torch==1.9.0
+torch
 torchvision
 numpy
-pillow
+pillow==9.5.0
 matplotlib
 pandas
 pytoml
 tqdm
 opencv-python
-scikit-image
+scikit-image==0.23.1
 pyqt5
 dill
 easydict

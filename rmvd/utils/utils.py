@@ -5,7 +5,7 @@ import random
 
 import numpy as np
 import torch
-from torch._six import string_classes
+string_classes = str
 import pytoml
 
 
