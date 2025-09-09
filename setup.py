@@ -41,4 +41,7 @@ setup(
     include_package_data=True,
     install_requires=['torch >= 1.9.0', 'numpy', 'pillow', 'matplotlib', 'pandas', 'pytoml', 'tqdm', 'opencv-python', 'scikit-image'],
     python_requires='>=3.8',
+    package_data={
+        "rmvd": ["data/sample_lists/*"],  # relative to the package dir
+    }
 )
